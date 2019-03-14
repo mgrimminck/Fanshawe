@@ -16,6 +16,7 @@ p,legend {
 	color: white; /* paragraph and legend colour to white*/
 }
 
+@media screen and (max-width: 480px) {
 *,
 *:before,
 *:after {
@@ -54,7 +55,6 @@ float: left;
 padding: 8px 16px;
 }
 
-@media screen and (max-width: 480px) {
 }
 
 	
