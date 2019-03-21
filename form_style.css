@@ -15,9 +15,28 @@ h2 {
 p,legend {
 	color: white; /* paragraph and legend colour to white*/
 }
-div > p { 
-	color: red; /* descendent/child selector 1*/
+body h1 {
+	background-color: green; /* descendent #1 changes the h1 to green */
 }
+body h2 {
+	background-color: purple; /* descendent #2 changes the h2 to green */
+}
+div > p { 
+	color: red; /* child selector 1 turns all the paragraph in the div to red*/
+}
+.green {
+	color: green;
+}
+div.optional > p { /* child selector 2 turns all the paragraphs in the div to blue*/
+	color: blue;
+}
+div ~ p {
+	background-color: grey; /* Sibling Selector changes the selectors after div */
+}
+div + p {
+	font-style: italic; /*Adjacent Sibling Selector changes the font AFTER the div */
+}
+
 @media screen and (max-width: 480px) {
 *,
 *:before,
