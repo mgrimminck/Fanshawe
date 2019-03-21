@@ -15,7 +15,9 @@ h2 {
 p,legend {
 	color: white; /* paragraph and legend colour to white*/
 }
-
+div > p { 
+	color: red; /* descendent/child selector 1*/
+}
 @media screen and (max-width: 480px) {
 *,
 *:before,
