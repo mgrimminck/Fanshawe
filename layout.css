@@ -36,6 +36,7 @@ nav {
 
 nav li {
 	display: inline;
+	position: relative; /* add this puts content above */
 	padding: 4%;
 }
 
@@ -43,6 +44,10 @@ nav a {
 	font: 30px/1.4 Impact, sans-serif;
 	color: #666;
 	text-decoration: none;
+}
+#submenu {
+	position: relative;
+	display: inline-block;
 }
 
 footer {
