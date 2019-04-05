@@ -45,10 +45,18 @@ nav a {
 	color: #666;
 	text-decoration: none;
 }
-#submenu {
+#menu {
 	position: relative;
 	display: inline-block;
 }
+#submenu {
+	display: none;
+	position: absolute;
+}
+#menu:hover #submenu {
+	display: inline-block;
+}
+
 
 footer {
 	text-align: center;
