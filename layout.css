@@ -36,7 +36,7 @@ nav {
 
 nav li {
 	display: inline;
-	position: relative; /* add this puts content above */
+	/*position: relative; add this puts content above*/
 	padding: 4%;
 }
 
@@ -45,16 +45,16 @@ nav a {
 	color: #666;
 	text-decoration: none;
 }
-#menu {
+.menu {
 	position: relative;
 	display: inline-block;
 }
-#submenu {
+.submenu {
 	display: none;
 	position: absolute;
 }
-#menu:hover #submenu {
-	display: inline-block;
+.menu:hover .submenu {
+	display: block;
 }
 
 
