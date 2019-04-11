@@ -44,17 +44,20 @@ nav a {
 	color: #666;
 	text-decoration: none;
 }
-.menu {
+.menu { /* position on top*/
 	position: relative;
 }
-.submenu {
-	display: none;
+.submenu { /*position below */
+	display: none; 
 	position: absolute;
+	background-color: yellow;
+	padding-right: 3%;
+	border: 1px solid black;
 }
-.menu:hover .submenu {
-	display: inline-block;
+.submenu a {
+	display: block;
 }
-.submenu:hover .menu {
+.menu:hover .submenu { /* appears when hovering */
 	display: block;
 }
 
